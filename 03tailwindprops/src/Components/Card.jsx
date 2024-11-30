@@ -1,11 +1,14 @@
 import React from 'react'
+import reactLogo from '../assets/react.svg'
 
 function Card({username,btnText}) {
   return (
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-4">
     <a href="#">
         <img class="rounded-t-lg ml-36" src="https://images.pexels.com/photos/29369234/pexels-photo-29369234/free-photo-of-scenic-mountain-view-with-power-lines.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"  height={50} width={100}   alt="" />
+        <img className='pl-44' src={reactLogo} alt="" />
     </a>
+    
     <div class="p-5">
         <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
